@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main_styles.css">
+    <title>Employee Menu</title>
+</head>
+<body>
+  <header>
+      <nav>
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+          </ul>
+          <h1>Employee Menu</h1>
+      </nav>
+</header>
+    <form>
+    <! -- Using this button form inside a form will cause conflict. CAution advised     ! -->
+    <input type="text" placeholder="Enter customer order ID" >
+    <button formaction="employee_search_orders.html">Search</button>
+    <br>
+    <br>
+    <input type="text" placeholder="Enter customer number" >
+    <button formaction="employee_finalize_payment.html">Finalize Payment</button>
+    <br>
+    <br>
+    <button formaction="employee_finalize_delivery.html">Finalize Delivery</button>
+    </form>
+  
+</body>
+</html>
